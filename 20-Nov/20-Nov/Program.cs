@@ -14,6 +14,7 @@ namespace _20_Nov
             Console.WriteLine("Enter Your Name :");
             string Name = Console.ReadLine();
             Console.WriteLine(Name);
+            Console.WriteLine("\n");
 
             //Task2
 
@@ -29,6 +30,7 @@ namespace _20_Nov
             Console.WriteLine("Your first char :" + firstChar);
             const int month = 10;
             Console.WriteLine("The month you join to academy:" + month);
+            Console.WriteLine("\n");
 
             //Task3
 
@@ -38,6 +40,7 @@ namespace _20_Nov
             Console.WriteLine(car[1]);
             Console.WriteLine(car[2]);
             Console.WriteLine("The length of array :" + car.Length);
+            Console.WriteLine("\n");
 
             //Task4
 
@@ -48,32 +51,33 @@ namespace _20_Nov
             Console.WriteLine("Enter Your Year of birthday :");
             string yearBirthday = Console.ReadLine();
             Console.WriteLine(firstName + " " + lastName + " " + yearBirthday);
+            Console.WriteLine("\n");
 
             //Task5
 
             int[] num = new int[10];
             Console.WriteLine("Enter The array elements");
             num[0] = 1;
-            Console.WriteLine(num[0]);
+            Console.WriteLine("element-0 : "+num[0]);
             num[1] = 1;
-            Console.WriteLine(num[1]);
+            Console.WriteLine("element-1 : " + num[1]);
             num[2] = 2;
-            Console.WriteLine(num[2]);
+            Console.WriteLine("element-2 : " + num[2]);
             num[3] = 3;
-            Console.WriteLine(num[3]);
+            Console.WriteLine("element-3 : "+ num[3]);
             num[4] = 4;
-            Console.WriteLine(num[4]);
+            Console.WriteLine("element-4 : " + num[4]);
             num[5] = 5;
-            Console.WriteLine(num[5]);
+            Console.WriteLine("element-5 : " + num[5]);
             num[6] = 6;
-            Console.WriteLine(num[6]);
+            Console.WriteLine("element-6 : " + num[6]);
             num[7] = 7;
-            Console.WriteLine(num[7]);
+            Console.WriteLine("element-7 : " + num[7]);
             num[8] = 8;
-            Console.WriteLine(num[8]);
+            Console.WriteLine("element-8 : " + num[8]);
             num[9] = 9;
-            Console.WriteLine(num[9]);
-
+            Console.WriteLine("element-9 : " + num[9]);
+            Console.WriteLine("\n");
 
 
             //Task6
