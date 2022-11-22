@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace _21_Nov
 {
@@ -39,24 +40,51 @@ namespace _21_Nov
             Console.WriteLine("\n");
 
             //Task3
-            int x = 0, y = -1,z=4;
 
-            if (x<y && x<z && y<z)
+            Console.WriteLine("Enter your first integer number");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your second integer number");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your thired integer number");
+            int z = Convert.ToInt32(Console.ReadLine());
+
+            if (x > y && x > z)
             {
-                Console.WriteLine(x + " " + y + " " + z);
+                if (y > z)
+                {
+                   Console.WriteLine(x + " , " + y + " , " + z);
+                }
+                else
+                {
+                    Console.WriteLine(x + " , " + z + " , " + y);
+                }
             }
-            else if (y<x && y<z && z<x)
+            else if (y > x && y > z)
             {
-                Console.WriteLine(y + " "+z+" " + x);
+                if (x > z)
+                {
+                    Console.WriteLine(y + " , " + x + " , " + z);
+                }
+                else
+                {
+                    Console.WriteLine(y + " , " + z + " , " + x);
+                }
             }
-            else
+            else if (z > x && z > y)
             {
-                Console.WriteLine(z + " "+x+" "+y);
+                if (x > y)
+                {
+                    Console.WriteLine(z + " , " + x + " , " + y);
+                }
+                else
+                {
+                    Console.WriteLine(z + " , " + y + " , " + x);
+                }
             }
             Console.WriteLine("\n");
 
             //Task4
-
+            Console.WriteLine("max of five numbers");
             int y0= -5,y1= -2,y2= -6,y3= 0,y4= -1 ;
             if (y0 > y1 && y0 > y2 && y0 > y3 && y0 > y4)
             {
@@ -85,7 +113,7 @@ namespace _21_Nov
             double kiloPerHour=Convert.ToDouble(Console.ReadLine());
 
             double milePerHour = kiloPerHour * 0.6213712;
-            Console.WriteLine("The miles per hour =  "+milePerHour);
+            Console.WriteLine($"The miles per hour =  {milePerHour} miles per hour ");
 
             Console.WriteLine("\n");
             //Task6
@@ -96,7 +124,7 @@ namespace _21_Nov
 
             int hourToMinute=hours * 60;
             int total = hourToMinute + minutes;
-            Console.WriteLine("The total hour and minutes in a minutes = " + total);
+            Console.WriteLine($"The total hour and minutes in a minutes = {total}minutes");
 
             Console.WriteLine("\n");
             //Task7
@@ -115,10 +143,10 @@ namespace _21_Nov
             string[] myArray = { "Rogina", "Rand", "Georgina", "Rami", "Mohammed" };
 
             Console.WriteLine(myArray[0].Substring(0,4));
-            Console.WriteLine(myArray[1].Substring(0, 4));
-            Console.WriteLine(myArray[2].Substring(0, 4));
-            Console.WriteLine(myArray[3].Substring(0, 4));
-            Console.WriteLine(myArray[4].Substring(0, 4));
+            Console.WriteLine(myArray[1].Substring(0,4));
+            Console.WriteLine(myArray[2].Substring(0,4));
+            Console.WriteLine(myArray[3].Substring(0,4));
+            Console.WriteLine(myArray[4].Substring(0,4));
 
         }
     }

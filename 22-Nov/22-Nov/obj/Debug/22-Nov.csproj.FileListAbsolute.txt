@@ -1,0 +1,8 @@
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\bin\Debug\22-Nov.exe.config
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\bin\Debug\22-Nov.exe
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\bin\Debug\22-Nov.pdb
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\obj\Debug\22-Nov.csproj.AssemblyReference.cache
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\obj\Debug\22-Nov.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\obj\Debug\22-Nov.csproj.CoreCompileInputs.cache
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\obj\Debug\22-Nov.exe
+C:\Users\dell\C-Sharp\22-Nov\22-Nov\obj\Debug\22-Nov.pdb
