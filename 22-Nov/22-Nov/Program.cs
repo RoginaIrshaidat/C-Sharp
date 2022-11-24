@@ -97,9 +97,25 @@ namespace _22_Nov
             }
             Console.WriteLine();
 
+
+            int space = 4;
+            for (int r = 0; r < space; r++)
+            {
+                for (int c = space - r; c > 0; c--)
+                {
+                    Console.Write(" ");
+                }
+                for (int s = 0; s <= r; s++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine("\n");
+
+            }
+
             //Task7
 
- 
+
             int v = 1;
             for (int r = 1; r < 5; r++)
                 {
@@ -111,6 +127,31 @@ namespace _22_Nov
                 Console.WriteLine();
 
                 }
+            Console.WriteLine();
+
+            int m = 1;
+            int space1 = 4;
+            for (int r = 0; r < space1; r++)
+            {
+                for (int c = space1 - r; c > 0; c--)
+                {
+                    Console.Write(" ");
+                }
+                for (int s = 0; s <= r; s++)
+                {
+                    Console.Write(m+"  ");
+                    m += 1;
+                }
+                Console.WriteLine("\n");
+
+            }
+
+           
+
+
+
+
+
 
         }
     }
