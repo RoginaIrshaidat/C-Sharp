@@ -1,0 +1,8 @@
+C:\Users\dell\C-Sharp\optional\optional\bin\Debug\optional.exe.config
+C:\Users\dell\C-Sharp\optional\optional\bin\Debug\optional.exe
+C:\Users\dell\C-Sharp\optional\optional\bin\Debug\optional.pdb
+C:\Users\dell\C-Sharp\optional\optional\obj\Debug\optional.csproj.AssemblyReference.cache
+C:\Users\dell\C-Sharp\optional\optional\obj\Debug\optional.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\C-Sharp\optional\optional\obj\Debug\optional.csproj.CoreCompileInputs.cache
+C:\Users\dell\C-Sharp\optional\optional\obj\Debug\optional.exe
+C:\Users\dell\C-Sharp\optional\optional\obj\Debug\optional.pdb

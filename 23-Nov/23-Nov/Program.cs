@@ -59,7 +59,7 @@ namespace _23_Nov
             string username = Console.ReadLine();
             Console.WriteLine("Enter your password");
             string password = Console.ReadLine();
-            Console.WriteLine($" Your username and password  {login(username, password)}");
+            login(username, password);
 
             //Task7
 
@@ -129,7 +129,7 @@ namespace _23_Nov
         }
         //Task4
         public static int ageInYear(int age) {
-            int ageInDays = age * 360;
+            int ageInDays = age * 365;
             return ageInDays;
         
         }
@@ -153,12 +153,24 @@ namespace _23_Nov
             string[] usernames = { "rami_mohammed", "randIrshaidat", "reemRiziq" };
             string[] passwords = { "rami2016", "rand2018", "reem1998" };
 
+            bool user = false;
             for (int i = 0; i <=2; i++)
             {
-                if (username != usernames[i] && password != passwords[i])
+                if (usernames[i] == username && passwords[i] == password)
                 {
-                    return false;
-                }               
+                    user= true;
+                    break;
+                }
+                
+            }
+            if (user == true)
+            {
+                Console.WriteLine("Your username and password are Passed");
+            }
+            else
+            {
+                Console.WriteLine("Your username and password are Failed");
+
             }
             return true;
             
@@ -173,7 +185,7 @@ namespace _23_Nov
                 power *= numb;
             }
           
-            Console.WriteLine($"The number is : {numb} the power of number are :{power}");
+            Console.WriteLine($"The number is : {numb} , the number of bower is : {powe}  the power of number are :{power}");
         }
         
         //Task8
@@ -212,11 +224,10 @@ namespace _23_Nov
                     break;
                 }
             }
-                if(prime == 0 )
-                {
-                    Console.WriteLine($" The {number} is Prime Number");
-                    return ;
-                }           
+            if(prime == 0 )
+            {
+                Console.WriteLine($" The {number} is Prime Number");
+            }           
         }
 
         //Task10 
