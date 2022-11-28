@@ -8,7 +8,8 @@ namespace _27_Nov
 {
     internal class Program
     {
-        public class Employee {
+        public class Employee
+        {
             int Age;
             string Gender;
             string Name;
@@ -33,21 +34,21 @@ namespace _27_Nov
             }
             public static void ageRange(int age)
             {
-                if (age ==18 && age<60)
+                if (age == 18 && age < 60)
                 {
                     Console.WriteLine("your age in the range of age");
                 }
-                else 
+                else
                 {
                     Console.WriteLine("your age not in the range");
                 }
-                
+
             }
 
             public static void phoneStart(string phone)
             {
-               string phoNum = phone.Substring(0, 3);
-                if (phoNum == "079" || phoNum == "078" || phoNum=="077")
+                string phoNum = phone.Substring(0, 3);
+                if (phoNum == "079" || phoNum == "078" || phoNum == "077")
                 {
                     Console.WriteLine($" your phone number {phone}");
                 }
@@ -57,12 +58,13 @@ namespace _27_Nov
                 }
             }
         }
-       
+
 
 
         static void Main(string[] args)
         {
-            Employee emp = new Employee(24,"Female","Rogina","roginaershedat@gmal.com",32,"0790161860");
+            
+            Employee emp = new Employee(24, "Female", "Rogina", "roginaershedat@gmal.com", 32, "0790161860");
             Employee.print(24, "Female", "Rogina", "roginaershedat@gmal.com", 32, "0790161860");
             Employee.ageRange(10);
             Employee.phoneStart("07612500");
