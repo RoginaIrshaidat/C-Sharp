@@ -1,0 +1,8 @@
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\bin\Debug\29-Nov.exe.config
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\bin\Debug\29-Nov.exe
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\bin\Debug\29-Nov.pdb
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\obj\Debug\29-Nov.csproj.AssemblyReference.cache
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\obj\Debug\29-Nov.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\obj\Debug\29-Nov.csproj.CoreCompileInputs.cache
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\obj\Debug\29-Nov.exe
+C:\Users\dell\C-Sharp\oop_tasks\29-Nov\29-Nov\obj\Debug\29-Nov.pdb

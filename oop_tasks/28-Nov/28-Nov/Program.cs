@@ -47,7 +47,17 @@ namespace _28_Nov
 
     class Mercdes:Car
     {
+        public Mercdes(int year, int palletNo, double price, string carMake, string type, string model, string color) : base ( year,  palletNo,  price,  carMake,  type,  model,  color)
+        {
 
+        }
+
+        public void litterPerKilo(int lit)
+        {
+            int distance=lit*20;
+            Console.WriteLine($"The distance of{lit} = {distance}");
+
+        }
     }
     internal class Test
     {
@@ -81,7 +91,12 @@ namespace _28_Nov
             myCar.stop();
             myCar.print();
 
-            Mercdes car = new Mercdes();
+
+            Console.WriteLine("Enter the litter ");
+            int liter =Convert.ToInt32 (Console.ReadLine());
+
+            Mercdes car = new Mercdes(year, palletNo, price, carMake, type, model, color);
+            car.litterPerKilo(liter);
 
 
 
